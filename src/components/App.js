@@ -1,14 +1,15 @@
 import React from 'react';
-import Upload from './Upload';
+import SendMessage from './components/SendMessage';
+import Inbox from './components/Inbox';
 
-function App() {
+const App = () => {
     return (
-        <div>
-            <h1>Decentralized Mail</h1>
-            <Upload />
-            {/* Add other components for sending and reading messages */}
+        <div className="App">
+            <h1>Decentralized Mail System</h1>
+            <SendMessage />
+            <Inbox />
         </div>
     );
-}
+};
 
 export default App;
