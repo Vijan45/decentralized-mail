@@ -1,38 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+}
+
 .App {
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Card {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    width: 90%;
+    max-width: 600px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+    button:hover {
+        background-color: #0056b3;
+    }
+
+h1, h2 {
+    color: #90caf9;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type="file"] {
+    margin: 10px 0;
 }
+
+p.status {
+    color: #90caf9;
+    font-size: 1.2em;
+}
+
+.error {
+    color: red;
+    font-size: 1.2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    form .MuiTextField-root, form .MuiButton-root {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    form .MuiButton-root {
+        background-color: #007bff;
+        color: white;
+    }
+
+        form .MuiButton-root:hover {
+            background-color: #0056b3;
+        }
