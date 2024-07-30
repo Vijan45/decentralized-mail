@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\contracts",
+    "\\migrations",
+    "\\public",
+    "\\scripts",
+    "\\src",
+    "\\src\\components",
+    "\\src\\utils",
+    "\\test"
+  ],
+  "PreviewInSolutionExplorer": false
+}
