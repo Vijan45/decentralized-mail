@@ -96,7 +96,8 @@ Contributions are welcome! Please follow the standard GitHub workflow for contri
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. You can download the [MIT License](https://raw.githubusercontent.com/Vijan45/decentralized-mail/main/MIT%20License.txt) file directly or view it in the [LICENSE](LICENSE) file for details.
+
 
 ## Contact
 
